@@ -49,6 +49,7 @@ body{
     height:225px;
 }
 
+
 input[type=text] {
     box-sizing: border-box;
     width: 300px;
@@ -138,8 +139,11 @@ input[type=text] {
 #section-three{
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
-
 }
+
+/* #section-three img{
+
+}*/
 
 /***************************************
               FOOTER
