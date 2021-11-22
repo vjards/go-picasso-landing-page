@@ -29,7 +29,9 @@ body{
     padding:40px;
 }
 
-/**SECTION ONE**/
+/**********************************
+           SECTION ONE
+************************************/
 #section-one{
     display:flex;
     flex-direction: column;
@@ -41,6 +43,7 @@ body{
     line-height:30px;
     line-height: 1.6;
  }
+
 #section-one img{
     width:370px;
     height:225px;
@@ -81,8 +84,9 @@ input[type=text] {
     display:flex;
     justify-content: center;
     flex-direction: column;
-    padding:20px;
-    font-size: 25px;
+    padding:10px;
+    font-size: 40px;
+    margin-left:600px;
 }
 
 .course-information{
@@ -106,7 +110,7 @@ input[type=text] {
 .point-two{
     width:70%;
     margin-left:30px;
-    padding:20px;
+    padding:30px;
     display:flex;
     justify-content: center;
     flex-direction: column;
@@ -115,10 +119,26 @@ input[type=text] {
 .point-three{
     width:70%;
     margin-left:30px;
-    padding:20px;
+    padding:50px;
     display:flex;
     justify-content: center;
     flex-direction: column;
+}
+
+/************************************
+           SECTION THREE
+*************************************/
+
+#section-three{
+    width: 900px;
+    overflow: auto;
+    padding:100px;
+}
+
+#section-three{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+
 }
 
 /***************************************
