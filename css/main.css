@@ -1,5 +1,5 @@
 /*********************************************
-GENERAL LAYOUTS
+              GENERAL LAYOUTS
 ********************************************/
 header{
     padding:5px;
@@ -76,7 +76,7 @@ input[type=text] {
 /*************************************
             SECTION TWO
 **************************************/
-#section-two{
+/*#section-two{
     background-color:pink;
 }
 
@@ -141,9 +141,7 @@ input[type=text] {
     font-size: 30px;
 }
 
-/* #section-three img{
 
-}*/
 
 /***************************************
               FOOTER
