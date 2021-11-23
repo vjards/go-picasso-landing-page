@@ -50,17 +50,7 @@ body{
 }
 
 
-input[type=text] {
-    box-sizing: border-box;
-    width: 300px;
-    color: #2a423a;
-    font-style: italic;
-    margin-right:80px;
-    margin-bottom:30px;
-    padding: 1em;
-  }
-
-  input[type=button] {
+  button {
     width: 300px;
     padding: 20px 0;
     margin-top: 20px;
@@ -136,10 +126,11 @@ input[type=text] {
     padding:100px;
 }
 
-#section-three{
+#section-three h2{
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
 }
+
 
 
 
