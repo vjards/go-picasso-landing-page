@@ -55,7 +55,7 @@ body{
     width: 300px;
     padding: 20px 0;
     margin-top: 20px;
-    margin-left:50px;
+    margin-left:220px;
     background-color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -69,6 +69,19 @@ body{
 /*************************************
             SECTION TWO
 **************************************/
+#section-two h1{
+    font-family: 'Permanent Marker', cursive;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding:10px;
+    font-size: 40px;
+    margin-left:550px;
+}
+
+#section-two{
+    background:lavenderblush;
+}
 /*#section-two{
     background-color:pink;
 }
