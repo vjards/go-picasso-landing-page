@@ -32,9 +32,9 @@ body{
 /**********************************
            SECTION ONE
 ************************************/
-#section-one{
+#section-one {
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     padding:100px;
     background-color:whitesmoke;
@@ -44,9 +44,10 @@ body{
     line-height: 1.6;
  }
 
-#section-one img{
-    width:370px;
-    height:225px;
+#section-one iframe{
+   display:flex;
+   justify-content: center;
+   margin-bottom: 50px;
 }
 
 
@@ -54,6 +55,7 @@ body{
     width: 300px;
     padding: 20px 0;
     margin-top: 20px;
+    margin-left:50px;
     background-color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -62,6 +64,7 @@ body{
     border: none;
     text-align: center;
     text-transform: uppercase;
+    justify-content: center;
   }
 /*************************************
             SECTION TWO
@@ -124,15 +127,26 @@ body{
     width: 900px;
     overflow: auto;
     padding:100px;
+    margin-left:400px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
 }
 
 #section-three h2{
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
+    margin-left:100px;
 }
 
+#section-three p{
+    text-align:left;
+    margin-right:350px;
+}
 
+/*.social-icons i{
 
+}*/
 
 /***************************************
               FOOTER
