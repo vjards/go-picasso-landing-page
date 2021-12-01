@@ -7,44 +7,44 @@ header{
     font-size:30px;
     height:500px;
     background: url('../img/pink-white-background.jpg');
-    text-align:center;
-     
+    text-align:center;    
 }
-
-header h1{
-    margin-top:120px;
-}
-
 
 body{
     background-color: white;
     font-family: 'Poppins', sans-serif;
-  
 }
 
-.course-information{
+.content-wrapper{
+    max-width: 800px;
+    width:95%;
+    margin: 0 auto;
+    padding:60px 0;
+}
+
+/*.container{
     width: 900px;
     margin: 0 auto;
     overflow: auto;
     padding:40px;
-}
+}*/
 
 /**********************************
            SECTION ONE
 ************************************/
-#section-one {
+#demo-video{
     display:flex;
     flex-direction: row;
     justify-content: center;
     padding:100px;
-    background-color:whitesmoke;
     text-align: left;
     height:700px;
     line-height:30px;
     line-height: 1.6;
+    
  }
 
-#section-one iframe{
+#demo-video iframe{
    display:flex;
    justify-content: center;
    margin-bottom: 50px;
@@ -69,19 +69,23 @@ body{
 /*************************************
             SECTION TWO
 **************************************/
-#section-two h1{
-    font-family: 'Permanent Marker', cursive;
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    padding:10px;
-    font-size: 40px;
-    margin-left:550px;
-}
-
-#section-two{
+#go-picasso-directions{
     background:lavenderblush;
 }
+
+#go-picasso-directions h1{
+    font-family: 'Permanent Marker', cursive;
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#go-picasso-directions iframe{
+    
+}
+
 /*#section-two{
     background-color:pink;
 }
@@ -132,30 +136,30 @@ body{
     flex-direction: column;
 }
 
+
+
+
+
 /************************************
            SECTION THREE
 *************************************/
 
 #section-three{
-    width: 900px;
-    overflow: auto;
-    padding:100px;
-    margin-left:400px;
+    width:px;
+    padding:px;
     display:flex;
-    justify-content:center;
     flex-direction:column;
-    
 }
 
 #section-three h1{
     font-family: 'Permanent Marker', cursive;
     font-size: 40px;
-    margin-left:75px;
+
 }
 
 #section-three p{
     text-align:left;
-    margin-right:350px;
+    margin-right:200px;
 }
 
 /************************
@@ -166,12 +170,14 @@ body{
     padding: 20px;
     font-size: 30px;
     width:30px;
-    border-radius:30%;
+    border-radius:60%;
 }
 
 .fa-github, .fa-linkedin{
     background:lightgray;
 }
+
+
 
 /***************************************
               FOOTER
