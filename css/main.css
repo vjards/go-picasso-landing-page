@@ -82,9 +82,15 @@ body{
     text-align: center;
 }
 
-#go-picasso-directions iframe{
-    
-}
+.site-feature{
+    overflow:hidden;
+} /*parent class*/
+
+.site-feature iframe{
+    float:left;
+    margin-right:20px;
+    margin-bottom:20px;
+} /*child class*/
 
 /*#section-two{
     background-color:pink;
@@ -154,12 +160,17 @@ body{
 #section-three h1{
     font-family: 'Permanent Marker', cursive;
     font-size: 40px;
+    text-align:center;
+}
 
+#section-three img{
+    display:flex;
+    margin-left:140px;
 }
 
 #section-three p{
     text-align:left;
-    margin-right:200px;
+    margin-left:150px;
 }
 
 /************************
@@ -171,11 +182,15 @@ body{
     font-size: 30px;
     width:30px;
     border-radius:60%;
-}
+    float:left;
+} /*parent class*/
 
+.fa-linkedin{
+    margin-right:20px;
+}
 .fa-github, .fa-linkedin{
     background:lightgray;
-}
+} /*child class*/
 
 
 
