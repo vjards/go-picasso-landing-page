@@ -32,23 +32,15 @@ body{
 /**********************************
            SECTION ONE
 ************************************/
-#demo-video{
+ #go-picasso-picture img{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    padding:100px;
-    text-align: left;
-    height:700px;
-    line-height:30px;
-    line-height: 1.6;
+    width:50%;
+    margin-left:160px;
     
  }
 
-#demo-video iframe{
-   display:flex;
-   justify-content: center;
-   margin-bottom: 50px;
-}
 
 
   button {
@@ -56,15 +48,17 @@ body{
     padding: 20px 0;
     margin-top: 20px;
     margin-left:220px;
-    background-color: black;
+    background-color: lavenderblush;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 1.125em;
-    color:white;
-    border: none;
+    font-size: 1.5em;
+    color:black;
+    border: 6px solid black;
+    border-radius:53px;
     text-align: center;
     text-transform: uppercase;
     justify-content: center;
+    
   }
 /*************************************
             SECTION TWO
@@ -170,7 +164,8 @@ body{
 
 #section-three p{
     text-align:left;
-    margin-left:150px;
+    margin-left:100px;
+    margin-bottom:40px;
 }
 
 /************************
@@ -178,7 +173,7 @@ body{
 *************************/ 
 
 .fab{
-    padding: 20px;
+    padding: 12px;
     font-size: 30px;
     width:30px;
     border-radius:60%;
@@ -186,8 +181,10 @@ body{
 } /*parent class*/
 
 .fa-linkedin{
-    margin-right:20px;
+    margin-right:10px;
 }
+/*child class*/
+
 .fa-github, .fa-linkedin{
     background:lightgray;
 } /*child class*/
