@@ -32,14 +32,14 @@ body{
 /**********************************
            SECTION ONE
 ************************************/
- #go-picasso-picture img{
+ /*#go-picasso-picture img{
     display:flex;
     flex-direction: column;
     justify-content: center;
     width:50%;
     margin-left:160px;
     
- }
+ }*/
 
 
 
@@ -48,12 +48,12 @@ body{
     padding: 20px 0;
     margin-top: 20px;
     margin-left:220px;
-    background-color: lavenderblush;
+    background-color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1.5em;
-    color:black;
-    border: 6px solid black;
+    color:white;
+    border: 3px solid white;
     border-radius:53px;
     text-align: center;
     text-transform: uppercase;
