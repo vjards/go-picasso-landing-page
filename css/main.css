@@ -30,12 +30,10 @@ body{
     padding:10px 0;
 }
 
-/*.container{
-    width: 900px;
+.container{
+    width:60%;
     margin: 0 auto;
-    overflow: auto;
-    padding:40px;
-}*/
+}
 
 /*********************************    
 SLIDER CONTAINER AND IMAGE STYLES
@@ -136,20 +134,30 @@ SLIDER CONTAINER AND IMAGE STYLES
     text-align: center;
 }
 
-.site-feature{
+#go-picasso-directions h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size:40px;
+}
+
+#go-picasso-directions .site-feature{
     overflow:hidden;
+    
 } /*parent class*/
 
-.site-feature iframe{
+.site-feature iframe{      
+    width:50%;
     float:left;
-    margin-right:20px;
-    margin-bottom:20px;
 } 
+
+.site-feature p{
+    font-size:30px;
+}
+
 button {
     width: 300px;
     padding: 20px 0;
     margin-top: 20px;
-    margin-left:220px;
+    margin-left:300px;
     background-color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -191,9 +199,11 @@ button {
 }
 
 #section-three p{
-    text-align:left;
+    text-align:justify;
     margin-left:100px;
     margin-bottom:0px;
+    font-size:20px;
+
 }
 
 /************************

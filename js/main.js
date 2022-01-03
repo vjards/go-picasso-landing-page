@@ -10,7 +10,6 @@ let slideWidth = slideImage[0].clientWidth; //calculates the width of the 1st sl
 let currentSlide = 0;
 
 //SLIDER SET-UP
-
 function initiate (){
     /*
     slideImage[0]=0
@@ -32,8 +31,7 @@ function initiate (){
     //adding the "active" class to the 1st slide image
 
     //CALLBACK FUNCTION FOR NAVIGATION DOTS
-    createNavigationDots();
-    
+    createNavigationDots(); 
 };
 
 //CALLBACK FUNCTION 
